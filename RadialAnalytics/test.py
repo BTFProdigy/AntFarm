@@ -1,6 +1,11 @@
 import csv
 
 claim_data = {}
+FEMALE = 'Female'
+MALE = 'Male'
+AGE_LOW = 'Ages < 65'
+AGE_MID = 'Ages 65 - 74'
+AGE_HIGH = 'Ages 75+'
 
 # {22: {'Female':0, 'Male': 0, 'Ages < 65':0, 'Ages 65 - 74': 0, 'Ages 75+': 0}}
 
@@ -17,8 +22,8 @@ def filter(line):
     gender = int(line['Gender Code from Claim'])
     age = int(line['LDS Age Category'])
 
-    male = 0
-    female = 0
+    maleCount = 0
+    femaleCount = 0
     less65 = 0
     less74 = 0
     greater75 = 0
@@ -26,9 +31,9 @@ def filter(line):
     if gender == 0:
         pass
     elif gender == 1:
-        male += 1
+        maleCount += 1
     elif gender == 2:
-        female += 1
+        femaleCount += 1
 
     if age == 0:
         pass
@@ -40,20 +45,18 @@ def filter(line):
         greater75 += 1
 
     if state not in claim_data:
-        claim_data[state] = {'Female': female, 'Male': male, 'Ages < 65': less65,
-                             'Ages 65 - 74': less74, 'Ages 75+': greater75}
+        claim_data[state] = {FEMALE: femaleCount, MALE: maleCount, AGE_LOW: less65,
+        AGE_MID: less74, AGE_HIGH: greater75}
     else:
-        female = female + claim_data[state]['Female'],
-        male = male + claim_data[state]['Male'],
-        less65 = less65 + claim_data[state]['Ages < 65'],
-        less74 = less74 + claim_data[state]['Ages 65 - 74'],
-        greater75 = greater75 + claim_data[state]['Ages 75+']
-        claim_data[state] = {'Female': female, 'Male': male, 'Ages < 65': less65,
-                             'Ages 65 - 74': less74, 'Ages 75+': greater75}
-
+        currState = claim_data[state]
+      # print(str(claim_data[state][FEMALE]) + ' (' + str(type(claim_data[state][FEMALE])) + ")")
+        currState[FEMALE] += femaleCount
+        currState[MALE] += maleCount
+        currState[AGE_LOW] += less65
+        currState[AGE_MID] += less74
+        currState[AGE_HIGH] += greater75
 
 grab_row('data.csv')
-print(len(claim_data))
 
-print(claim_data[22], claim_data[22]['Female'], type(claim_data[22]['Female']))
-print(claim_data[1])
+for key, value in claim_data.items():
+    print(key, value)
