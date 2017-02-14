@@ -1,0 +1,14 @@
+DROP TABLE Appointment;
+DROP TABLE WAITLIST;
+DROP TABLE coverage_network;
+DROP TABLE BILL;
+DROP TABLE physician_directory;
+DROP TABLE specialty;
+DROP TABLE physician;
+DROP TABLE Building;
+DROP TABLE facility;
+DROP TABLE patient;
+DROP TABLE Insurance_plan;
+DROP TABLE copay;
+DROP PROCEDURE add_waitlist;
+DROP PROCEDURE UPDATE_patient_balance;
