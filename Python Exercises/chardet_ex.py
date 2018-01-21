@@ -8,18 +8,18 @@ for line in usock.readlines():
     if detector.done: break
 detector.close()
 usock.close()
-print (detector.result, '\n')
+print (detector.result)
 
-'''
+
 import glob
 
-detect = UniversalDetector()
-for file in glob.glob('./CSV/*.csv'):
-	print(file)
-	detect.reset()
-	for line in file(file, 'rb'):
-		detect.feed(line)
-		if detect.done:
-			detect.close()
-			print(detect.result)
-'''
+detector = UniversalDetector()
+for filename in glob.glob('./CSV/*.csv'):
+    print ('\n' + filename.ljust(60)),
+    detector.reset()
+    for line in open(filename, 'rb'):
+        detector.feed(line)
+        if detector.done: break
+    detector.close()
+    print (detector.result)
+
