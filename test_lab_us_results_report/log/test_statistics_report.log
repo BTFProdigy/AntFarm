@@ -1,0 +1,437 @@
+2020-01-30 18:38:37,288 - test_statistics_report - 124 - INFO - Beginning run of calculations
+2020-01-30 18:38:37,288 - test_statistics_report - 11 - INFO - running
+2020-01-30 18:38:37,289 - test_statistics_report - 40 - INFO - ['toexchange.dat', 'toclient.dat']
+2020-01-30 18:38:37,296 - test_statistics_report - 47 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 18:38:37,312 - test_statistics_report - 52 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'test_set': 'toexchange.dat'}
+2020-01-30 18:38:37,317 - test_statistics_report - 54 - DEBUG -    name  count    mean         std  ...     90%      95%     max        test_set
+0   NaN    4.0  8021.5  884.842924  ...  8835.1  8900.05  8965.0  toexchange.dat
+
+[1 rows x 11 columns]
+2020-01-30 18:38:37,347 - test_statistics_report - 47 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 18:38:37,360 - test_statistics_report - 52 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'test_set': 'toclient.dat'}
+2020-01-30 18:38:37,364 - test_statistics_report - 54 - DEBUG -    name  count    mean          std  ...     90%      95%     max        test_set
+0   NaN    4.0  8021.5   884.842924  ...  8835.1  8900.05  8965.0  toexchange.dat
+1   NaN    4.0  4819.5  1990.553943  ...  6607.8  6852.90  7098.0    toclient.dat
+
+[2 rows x 11 columns]
+2020-01-30 18:47:39,366 - test_statistics_report - 64 - INFO - Beginning run of calculations
+2020-01-30 18:47:39,366 - test_statistics_report - 11 - INFO - running
+2020-01-30 18:47:39,366 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat']
+2020-01-30 18:47:39,373 - test_statistics_report - 27 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 18:47:39,389 - test_statistics_report - 32 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'test_set': 'toexchange.dat'}
+2020-01-30 18:47:39,395 - test_statistics_report - 27 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 18:47:39,409 - test_statistics_report - 32 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'test_set': 'toclient.dat'}
+2020-01-30 18:47:39,413 - test_statistics_report - 35 - DEBUG -    name  count    mean          std  ...     90%      95%     max        test_set
+0   NaN    4.0  8021.5   884.842924  ...  8835.1  8900.05  8965.0  toexchange.dat
+1   NaN    4.0  4819.5  1990.553943  ...  6607.8  6852.90  7098.0    toclient.dat
+
+[2 rows x 11 columns]
+2020-01-30 18:48:14,827 - test_statistics_report - 64 - INFO - Beginning run of calculations
+2020-01-30 18:48:14,827 - test_statistics_report - 11 - INFO - running
+2020-01-30 18:48:14,827 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat']
+2020-01-30 18:48:14,835 - test_statistics_report - 27 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 18:48:14,850 - test_statistics_report - 32 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 18:48:14,856 - test_statistics_report - 27 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 18:48:14,869 - test_statistics_report - 32 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 18:48:14,873 - test_statistics_report - 35 - DEBUG -              name  count    mean          std  ...      75%     90%      95%     max
+0  toexchange.dat    4.0  8021.5   884.842924  ...  8640.25  8835.1  8900.05  8965.0
+1    toclient.dat    4.0  4819.5  1990.553943  ...  5872.50  6607.8  6852.90  7098.0
+
+[2 rows x 10 columns]
+2020-01-30 19:47:48,787 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:47:48,787 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:47:48,787 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:47:48,795 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:47:48,810 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:47:48,816 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:47:48,829 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:47:48,833 - test_statistics_report - 36 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 19:47:58,926 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:47:58,926 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:47:58,927 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:47:58,934 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:47:58,949 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:47:58,955 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:47:58,968 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:47:58,973 - test_statistics_report - 36 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 19:48:18,629 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:48:18,630 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:48:18,630 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:48:18,638 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:48:18,654 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:48:18,660 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:48:18,672 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:48:18,678 - test_statistics_report - 36 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 19:52:18,272 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:52:18,272 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:52:18,272 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:52:18,280 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:52:18,295 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:52:18,301 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:52:18,314 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:52:18,319 - test_statistics_report - 36 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 19:52:33,969 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:52:33,969 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:52:33,969 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:52:33,977 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:52:33,993 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:52:33,999 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:52:34,012 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:56:29,865 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:56:29,865 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:56:29,866 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:56:29,873 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:56:29,889 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:56:29,895 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:56:29,909 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 19:57:29,441 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 19:57:29,441 - test_statistics_report - 11 - INFO - running
+2020-01-30 19:57:29,441 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 19:57:29,449 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 19:57:29,465 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 19:57:29,471 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 19:57:29,484 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:00:04,641 - test_statistics_report - 73 - INFO - Beginning run of calculations
+2020-01-30 20:00:04,641 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:00:04,641 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:00:04,649 - test_statistics_report - 36 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:00:04,664 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:00:04,670 - test_statistics_report - 36 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:00:04,685 - test_statistics_report - 41 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:00:26,026 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:00:26,026 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:00:26,027 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:00:30,660 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:00:30,660 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:00:30,660 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:00:30,666 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:00:30,668 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:00:30,684 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:00:30,688 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:00:30,690 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:00:30,703 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:00:30,706 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:00:45,970 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:00:45,970 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:00:45,971 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:00:45,976 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:00:45,978 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:00:45,994 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:00:45,997 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:00:45,999 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:00:46,012 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:00:46,016 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:00:46,017 - test_statistics_report - 37 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 20:01:19,720 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:01:19,721 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:01:19,721 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:01:19,726 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:03:17,540 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:03:17,540 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:03:17,540 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:03:17,545 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:03:17,548 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:03:17,563 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:03:17,567 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:03:17,569 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:03:17,581 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:03:17,585 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:03:17,586 - test_statistics_report - 37 - DEBUG -    6744
+0  5678
+1  4563
+2  2526
+3  2435
+4  7645
+2020-01-30 20:12:02,697 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:12:02,697 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:12:02,698 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:12:02,703 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:12:02,705 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:12:02,720 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:12:02,724 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:12:02,726 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:12:02,739 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:12:02,743 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:12:20,016 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:12:20,016 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:12:20,016 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:12:20,022 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:12:20,024 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:12:20,039 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:12:20,043 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:12:20,045 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:12:20,058 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:12:20,062 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:12:48,708 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:12:48,708 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:12:48,709 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:12:48,714 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:12:48,717 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:12:48,732 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:12:48,736 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:12:48,738 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:12:48,751 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:12:48,754 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:13:06,485 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:13:06,485 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:13:06,486 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:13:06,491 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:13:06,493 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:13:06,508 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:13:06,512 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:13:06,514 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:13:06,527 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:13:06,530 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:13:06,537 - test_statistics_report - 32 - DEBUG - {0: {'count': 6.0, 'mean': 4931.833333333333, 'std': 2161.491838214215, 'min': 2435.0, '50%': 5120.5, '75%': 6477.5, '90%': 7194.5, '95%': 7419.75, 'max': 7645.0}, 'name': 'Samples-1'}
+2020-01-30 20:13:06,542 - test_statistics_report - 45 - DEBUG -              name  ...                                                  0
+0  toexchange.dat  ...                                                NaN
+1    toclient.dat  ...                                                NaN
+2       Samples-1  ...  {'count': 6.0, 'mean': 4931.833333333333, 'std...
+
+[3 rows x 11 columns]
+2020-01-30 20:13:57,431 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:13:57,432 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:14:43,608 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:14:43,608 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:14:43,609 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:14:43,614 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:14:43,616 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:14:43,632 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:14:43,635 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:14:43,637 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:14:43,650 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:14:43,654 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:14:43,661 - test_statistics_report - 32 - DEBUG - {0: {'count': 6.0, 'mean': 4931.833333333333, 'std': 2161.491838214215, 'min': 2435.0, '50%': 5120.5, '75%': 6477.5, '90%': 7194.5, '95%': 7419.75, 'max': 7645.0}, 'name': 'Samples-1'}
+2020-01-30 20:14:43,665 - test_statistics_report - 45 - DEBUG -              name  ...                                                  0
+0  toexchange.dat  ...                                                NaN
+1    toclient.dat  ...                                                NaN
+2       Samples-1  ...  {'count': 6.0, 'mean': 4931.833333333333, 'std...
+
+[3 rows x 11 columns]
+2020-01-30 20:15:57,655 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-01-30 20:15:57,656 - test_statistics_report - 11 - INFO - running
+2020-01-30 20:15:57,656 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-01-30 20:15:57,661 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-01-30 20:15:57,664 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-01-30 20:15:57,680 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-01-30 20:15:57,684 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-01-30 20:15:57,686 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-01-30 20:15:57,699 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-01-30 20:15:57,703 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-01-30 20:15:57,706 - test_statistics_report - 32 - DEBUG - {'count': 6.0, 'mean': 4931.833333333333, 'std': 2161.491838214215, 'min': 2435.0, '50%': 5120.5, '75%': 6477.5, '90%': 7194.5, '95%': 7419.75, 'max': 7645.0, 'name': 'Samples-1'}
+2020-01-30 20:15:57,710 - test_statistics_report - 45 - DEBUG -              name  count         mean  ...     90%      95%     max
+0  toexchange.dat    4.0  8021.500000  ...  8835.1  8900.05  8965.0
+1    toclient.dat    4.0  4819.500000  ...  6607.8  6852.90  7098.0
+2       Samples-1    6.0  4931.833333  ...  7194.5  7419.75  7645.0
+
+[3 rows x 10 columns]
+2020-02-08 21:13:06,776 - test_statistics_report - 74 - INFO - Beginning run of calculations
+2020-02-08 21:13:06,777 - test_statistics_report - 11 - INFO - running
+2020-02-08 21:13:06,777 - test_statistics_report - 20 - INFO - ['toexchange.dat', 'toclient.dat', 'Samples-1']
+2020-02-08 21:13:06,782 - test_statistics_report - 24 - DEBUG - toexchange.dat
+2020-02-08 21:13:06,785 - test_statistics_report - 37 - DEBUG -            #All  tests  to  exchange
+0  765432123456   8965 NaN       NaN
+1  765435245609   8532 NaN       NaN
+2  654322799753   7560 NaN       NaN
+3  668637624653   7029 NaN       NaN
+2020-02-08 21:13:06,800 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 8021.5, 'std': 884.8429239136176, 'min': 7029.0, '50%': 8046.0, '75%': 8640.25, '90%': 8835.1, '95%': 8900.05, 'max': 8965.0, 'name': 'toexchange.dat'}
+2020-02-08 21:13:06,804 - test_statistics_report - 24 - DEBUG - toclient.dat
+2020-02-08 21:13:06,807 - test_statistics_report - 37 - DEBUG -            #all  tests  to  client
+0  234653748679   5464 NaN     NaN
+1  987654326524   7098 NaN     NaN
+2  245624635822   4360 NaN     NaN
+3  145268735677   2356 NaN     NaN
+2020-02-08 21:13:06,820 - test_statistics_report - 42 - DEBUG - {'count': 4.0, 'mean': 4819.5, 'std': 1990.5539430017966, 'min': 2356.0, '50%': 4912.0, '75%': 5872.5, '90%': 6607.8, '95%': 6852.9, 'max': 7098.0, 'name': 'toclient.dat'}
+2020-02-08 21:13:06,823 - test_statistics_report - 24 - DEBUG - Samples-1
+2020-02-08 21:13:06,827 - test_statistics_report - 32 - DEBUG - {'count': 6.0, 'mean': 4931.833333333333, 'std': 2161.491838214215, 'min': 2435.0, '50%': 5120.5, '75%': 6477.5, '90%': 7194.5, '95%': 7419.75, 'max': 7645.0, 'name': 'Samples-1'}
+2020-02-08 21:13:06,831 - test_statistics_report - 45 - DEBUG -              name  count         mean  ...     90%      95%     max
+0  toexchange.dat    4.0  8021.500000  ...  8835.1  8900.05  8965.0
+1    toclient.dat    4.0  4819.500000  ...  6607.8  6852.90  7098.0
+2       Samples-1    6.0  4931.833333  ...  7194.5  7419.75  7645.0
+
+[3 rows x 10 columns]
